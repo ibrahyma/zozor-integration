@@ -1,0 +1,73 @@
+header
+{
+    background-color: rgb(255, 245, 215);
+    margin: 0;
+    padding-bottom: 0;
+}
+
+#head
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 15px 50px 10px 50px;
+}
+
+#logo_zozor
+{
+    font-family: 'Dayrom';
+    align-items: flex-start;
+}
+
+#logo_zozor span
+{
+    text-align: justify;
+    font-size: 18px;
+}
+
+#logo_zozor_important
+{
+    align-items: flex-end;
+    display: flex;
+    font-family: 'Ballpark';
+    font-size: 35px;
+    justify-content: space-between;
+}
+
+#logo_zozor_important > strong
+{
+    font-weight: normal;
+    height: 27px;
+}
+
+#menu
+{
+    color: #606060;
+    font-family: 'Dayrom';
+    padding: 0;
+    text-transform: uppercase;
+}
+
+#menu a:hover
+{
+    border-bottom: 3px solid currentColor;
+    color: rgb(119, 0, 1);
+    font-weight: bold;
+}
+
+#menu li
+{
+    margin-right: 20px;
+}
+
+#menu li:last-child
+{
+    margin-right: 0;
+}
+
+#menu ul
+{
+    display: flex;
+    padding-left: 0;
+    flex-wrap: nowrap;
+}

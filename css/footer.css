@@ -1,0 +1,56 @@
+footer
+{
+    background-image: url('../images/fond_jaune.png');
+    background-size: 100%;
+    margin: 0;
+}
+
+footer > div:first-child
+{
+    background-color: rgb(246, 235, 204);
+}
+
+#friends
+{
+    color: rgb(132, 4, 0);
+    display: flex;
+    justify-content: space-between;
+    list-style-image: url('../images/ico_liensexterne.png');
+}
+
+#friends ul
+{
+    margin-top: 0;
+}
+
+#friends ul:first-child
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#ico_top
+{
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+}
+
+#infos_footer
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#pics figure
+{
+    margin-left: 0;
+}
+
+#pics img
+{
+    border: 1px solid black;
+    border-radius: 5px;
+}
